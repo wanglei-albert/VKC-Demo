@@ -59,10 +59,22 @@ roslaunch tesseract_ros_example <example-name>.launch
 
 ### 2.2 Examples come with vkc package:
 
+#### 2.2.1 Example of using stick to pick ball:
 ``` bash
 source <path-to-src>/devel/setup.bash
-roslaunch vkc_example <example-name>.launch
+roslaunch vkc_example arena_env.launch
 ```
+#### 2.2.2 Example of loading scene URDF with build-in module:
+``` bash
+source <path-to-src>/devel/setup.bash
+roslaunch vkc_example load_vkc.launch
+```
+#### 2.2.2 Example of big task planning for complex tasks:
+``` bash
+source <path-to-src>/devel/setup.bash
+roslaunch vkc_example vkc_big_task.launch
+```
+
 
 ## 3. Trouble Shooting
 
